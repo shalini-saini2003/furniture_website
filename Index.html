@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <Style>
+        .main-page{
+           height:100vh;
+           background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        header{
+            height: 100px;
+            padding: 0;
+            
+        }
+        
+        a:hover{
+            text-decoration: underline;
+            
+        }
+        .content-box{
+            height: 490px;
+            width: 100%;
+
+        }
+        
+        .left-box{
+            height:60%;
+            width: 30%;
+        }
+        .right-box{
+            height:60%;
+            width: 50%;
+        }
+        .btn{
+            border-radius: 20px;
+        }
+        .right-box img{
+            padding-top:0%;
+            width: 800px;
+            height: 700px;
+            
+
+            
+        }
+        .second-page{
+            height: 100vh;
+           
+        }
+        .content-box1{
+            width: 250px;
+            height: 300px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+        }
+       
+        .img-box{
+            width: 100%;
+            height:70%;
+        }
+        .img-box img{
+            width: 100%;
+            height: 100%;
+        }
+        .img-content{
+            width: 100%;
+            height:30%; 
+
+        }
+    
+    </Style>
+</head>
+<body>
+    <div class="container-fluid main-page  m-0 p-0">
+        <header >
+            <div class="row m-0  h-100 d-flex justify-content-center align-items-center">
+                <div class="col-4">
+                    <h3 class="text-center text-light"><b>Furni</b></h3>
+                </div>
+                <div class="col-6">
+                    <ul class="nav text-light">
+                        <li class="nav-item"><a href="" class="nav-link text-light">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light">About Us</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light">Services</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light">Blog</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="" class="nav-link text-light"><i class="fa-regular fa-user"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <hr class="text-white">
+        <div class="row  content-box m-0 d-flex justify-content-center align-items-center">
+                <div class="col-4  left-box m-3 ">
+                    <h1 class="text-light"><b> Modern Interior <br> Design Studio</b></h1>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Molestias temporibus alias qui totam excepturi <p>
+                    <button class="btn btn-warning">Shop Now</button>
+                    <button class="btn btn-outline-light">Explore</button>
+                </div>
+                <div class="col-8  right-box m-2 p-0 d-flex justify-content-center align-items-center">
+                    <img src="sofa.png" alt="">
+                </div>
+        </div>
+
+    </div>
+    <div class="container-fluid m-2 second-page d-flex justify-content-center align-items-center ">
+        <div class="container">
+            <div class="row h-100 m-0 d-flex justify-content-center align-items-center  gap-3">
+                <div class="col-3  content-box1 d-flex justify-content-center align-items-center ">
+                    <div>
+                        <h3><b>Creafter with <br> excellent <br> material.</b></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Unde, sequi?</p>
+                        <button class="btn btn-dark">Explore</button>
+                    </div>
+                </div>
+                <div class="col-3 content-box1 d-flex flex-column">
+                    <div class="img-box ">
+                        <img src="chair.png" alt="">
+                    </div>
+                    <div class="img-content d-flex flex-column justify-content-center align-items-center">
+                        <h5>Argonomic Chair</h5>
+                        <h5>$43.00</h5>
+                    </div>
+                </div>
+                <div class="col-3 content-box1 d-flex flex-column">
+                    <div class="img-box ">
+                        <img src="chair2.png" alt="">
+                    </div>
+                    <div class="img-content  d-flex flex-column justify-content-center align-items-center">
+                        <h5>Nordic Chair</h5>
+                        <h5>$50.00</h5>
+                    </div>
+                </div>
+                <div class="col-3  content-box1 d-flex flex-column">
+                    <div class="img-box ">
+                        <img src="chair3.png" alt="">
+                    </div>
+                    <div class="img-content  d-flex flex-column justify-content-center align-items-center">
+                        <h5>Kurzo Aero Chair</h5>
+                        <h5>$78.00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
